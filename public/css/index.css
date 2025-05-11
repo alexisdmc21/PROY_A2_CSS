@@ -7,12 +7,16 @@ body {
     background-color: gray;
 }
 
-header {
+.proforma{
+    padding: 4px 10px;
     background-color: white;
+}
+
+header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 4px 10px;
+    padding-bottom: 4px;
 }
 
 .prof-container {
@@ -32,7 +36,7 @@ header {
     font-weight: normal;
 }
 
-table, th, td {
+#table-datos table, #table-datos td {
     margin-left: auto;
     border: 1px solid black;
     border-collapse: collapse;
@@ -48,4 +52,59 @@ h1 {
     color: black;
     font-size: 32px;
     padding: 10px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 4px 0px;
+}
+
+.datos-cliente{
+    font-size: 12px;
+}
+
+#table-descripcion{
+    padding: 10px 0px 0px;
+}
+
+#table-descripcion table{
+    width: 100%;
+}
+
+#table-descripcion th{
+    font-size: 12px;
+    color: white;
+    background-color: black;
+}
+
+#table-descripcion table, #table-descripcion td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table-descripcion td{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.table-final th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#tr-terminos th, #tr-terminos td {
+    font-size: 12px;  
+    padding: 6px;    
+}
+
+#tr-terminos-blanco th{
+    background-color: white;
 }
