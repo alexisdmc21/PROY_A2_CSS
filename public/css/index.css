@@ -89,6 +89,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 10px 0px;
+    font-size: 10px;
 }
 
 .table-final th{
@@ -105,6 +106,27 @@ h2 {
     padding: 6px;    
 }
 
+#tr-terminos td{
+    text-align: right;
+}
+
 #tr-terminos-blanco th{
     background-color: white;
+}
+
+#tr-terminos-blanco td{
+    text-align: right; 
+}
+
+.container-firma h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 25px 0 100px;
+}
+
+.container-firma p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
