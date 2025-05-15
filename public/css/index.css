@@ -7,7 +7,7 @@ body {
     background-color: gray;
 }
 
-.proforma{
+.proforma {
     padding: 4px 10px;
     background-color: white;
 }
@@ -23,20 +23,21 @@ header {
     padding: 0px 200px;
 }
 
-.prof-datos{
+.prof-datos {
     text-align: center;
     font-size: 12px;
     font-weight: bold;
 }
 
-#table-datos{
+#table-datos {
     text-align: left;
     padding-top: 10px;
     font-size: 11px;
     font-weight: normal;
 }
 
-#table-datos table, #table-datos td {
+#table-datos table,
+#table-datos td {
     margin-left: auto;
     border: 1px solid black;
     border-collapse: collapse;
@@ -62,71 +63,63 @@ h2 {
     padding: 4px 0px;
 }
 
-.datos-cliente{
+.datos-cliente {
     font-size: 12px;
+    padding: 10px 0px 10px;
 }
 
-#table-descripcion{
-    padding: 10px 0px 0px;
-}
-
-#table-descripcion table{
+.table-descripcion table {
     width: 100%;
 }
 
-#table-descripcion th{
+.table-descripcion th {
     font-size: 12px;
     color: white;
     background-color: black;
 }
 
-#table-descripcion table, #table-descripcion td {
+.table-descripcion table,
+.table-descripcion td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-#table-descripcion td{
+.table-descripcion td {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 10px 0px;
-    font-size: 10px;
-}
-
-.table-final th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: black;
-    color: white;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif; 
+    height: 30px;
 }
 
-#tr-terminos th, #tr-terminos td {
-    font-size: 12px;  
-    padding: 6px;    
+#tr-terminos th {
+    font-size: 12px;
+    padding: 6px;
 }
 
-#tr-terminos td{
+#tr-terminos td, #tr-terminos-blanco td {
     text-align: right;
+    font-size: 12px;
 }
 
-#tr-terminos-blanco th{
+#tr-terminos-blanco th {
     background-color: white;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
 }
 
-#tr-terminos-blanco td{
-    text-align: right; 
-}
-
-.container-firma h3{
-    font-family:Arial, Helvetica, sans-serif;
+.container-firma h3 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     padding: 25px 0 100px;
 }
 
-.container-firma p{
-    font-family:Arial, Helvetica, sans-serif;
+.container-firma p {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
